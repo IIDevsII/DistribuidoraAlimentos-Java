@@ -1,23 +1,23 @@
 # Distribuidora de Alimentos - Aplicación Java
 
 ## Descripción
-Este proyecto consiste en el desarrollo de una aplicación en Java que permite calcular automáticamente el costo de despacho a domicilio, según reglas de negocio:
+Proyecto académico en Java (sin IDE) que utiliza entrada por teclado con `Scanner` y salida por consola. Incluye dos programas:
+- `Vehiculo.java`: solicita marca, modelo, cilindrada, combustible y capacidad de pasajeros, y muestra los datos.
+- `NombreEdad.java`: solicita nombre y edad, y muestra los datos.
 
-- Compras mayores a $50,000 → Despacho gratuito (dentro de 20 km).
-- Compras entre $25,000 y $49,999 → Tarifa de $150 por km.
-- Compras menores a $25,000 → Tarifa de $300 por km.
-
-Los usuarios pueden registrarse con su cuenta Gmail (simulado).  
-El desarrollo se hizo **sin IDE**, usando línea de comandos (`javac` y `java`).
+Se compila con `javac` y se ejecuta con `java` en la JVM (Java SE 8+).
 
 ## Archivos incluidos
-- `README_Codigo.md`: Código fuente explicado línea por línea.
+- `README_Codigo.md`: Código fuente de ambos programas documentado línea por línea.
 - `REQUERIMIENTOS.md`: Requerimientos funcionales y no funcionales.
-- `HISTORIAS_USUARIO.md`: Historias de usuario.
+- `HISTORIAS_USUARIO.md`: Historias de usuario con criterios de aceptación.
 - `CRONOGRAMA.md`: Cronograma inicial.
-- `DatosVehiculo.java`: Código Java compilable.
+- `Vehiculo.java`: Código Java para datos de vehículo.
+- `NombreEdad.java`: Código Java para nombre y edad.
 
-## Cómo ejecutar
-1. Compilar el programa:
-   ```bash
-   javac DatosVehiculo.java
+## Cómo compilar (línea de comandos, sin IDE)
+Desde la carpeta del proyecto, ejecutar:
+
+```bash
+javac Vehiculo.java
+javac NombreEdad.java
