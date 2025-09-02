@@ -21,3 +21,14 @@ Desde la carpeta del proyecto, ejecutar:
 ```bash
 javac Vehiculo.java
 javac NombreEdad.java
+```
+Esto generará los archivos Vehiculo.class y NombreEdad.class.
+
+Cómo ejecutar
+
+Ejecuta cada programa desde la terminal:
+
+```bash
+java Vehiculo
+
+java NombreEdad
