@@ -1,6 +1,4 @@
----
-
-## 2️⃣ `REQUERIMIENTOS.md`
+## `REQUERIMIENTOS.md`
 
 ```markdown
 # Requerimientos del Proyecto
